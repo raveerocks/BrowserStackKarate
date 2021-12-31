@@ -1,4 +1,4 @@
-package examples.users;
+package examples.login;
 
 import java.io.IOException;
 
@@ -13,9 +13,11 @@ import okhttp3.RequestBody;
 public class BStackRunner {
     public String markTestStatus(WebDriver driver) throws IOException {
         if (driver.getTitle().equals("StackDemo")) {
+
+            //USING REST API TO MARK TEST
             OkHttpClient client = new OkHttpClient().newBuilder()
                     .build();
-            String credential = Credentials.basic("princetonbaretto_7D2Tbt", "qWi4tAEhsqyYmD7aAFR4");
+            String credential = Credentials.basic("BROWSERSTACK_USERNAME", "BROWSERSTACK_ACCESSKEY");
             RequestBody formBody = new FormBody.Builder()
                     .add("status", "passed")
                     .add("reason", "Titles Matched!")

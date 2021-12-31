@@ -1,1 +1,2 @@
-# BrowserStackKarate
+![Logo](https://www.browserstack.com/images/static/header-logo.jpg)
+# BrowserStack Examples Nightwatchjs !<a href="https://nodejs.org"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Karate_software_logo.svg/1200px-Karate_software_logo.svg.png" alt="Node.js" height="22" /></a> 
